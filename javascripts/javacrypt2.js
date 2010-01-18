@@ -138,8 +138,8 @@ function pwgen(pwl) {
 }
 
 function generate_htpasswd() {
-  var username = $F('username');
-  var password = $F('password');
+  var username = $('username').value;
+  var password = $('password').value;
   
   var crypted = htpasswd(username, password, ALG_CRYPT);
   
