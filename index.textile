@@ -23,7 +23,7 @@ h3. htpasswd-Generator
     <dd><input type="password" id="password" value="" /></dd>
     
     <dt>&nbsp;</dt>
-    <dd><input type="button" value="Hash erzeugen" onclick="" /></dd>
+    <dd><input type="button" value="Hash erzeugen" onclick="generate_htpasswd();" /></dd>
     
     <dt id="htpasswd_label">&nbsp;</dt>
     <dd id="htpasswd_content">&nbsp;</dd>
