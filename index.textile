@@ -1,0 +1,8 @@
+---
+layout: default
+title: dev.tosie.de
+---
+h3. DS&OR-Links
+
+* "Trac":https://dsor-development.upb.de/trac/dgs/
+* "SVN":https://dsor-development.upb.de/svn/dgs/
