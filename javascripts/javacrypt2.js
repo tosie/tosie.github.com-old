@@ -157,7 +157,7 @@ hier ist der htpasswd-Eintrag:\n\
 \n\
   ' + crypted + '\n\
 \n\
-Viele Grüße\n
+Viele Grüße\n\
 \n';
 
   window.location.href = 'mailto:?subject=' + encodeURI(subject) + '&body=' + encodeURI(body);
