@@ -4,33 +4,6 @@ title: dev.tosie.de
 ---
 h3. DS&OR-Links
 
-* "Trac":https://dsor-development.upb.de/trac/dgs/
-* "SVN":https://dsor-development.upb.de/svn/dgs/
-
----
-
-h3. htpasswd-Generator
-
-<notextile>
-  <script type="text/javascript" src="/javascripts/md5.js"></script>
-  <script type="text/javascript" src="/javascripts/sha1.js"></script>
-  <script type="text/javascript" src="/javascripts/javacrypt.js"></script>
-  <script type="text/javascript" src="/javascripts/javacrypt2.js"></script>
-  
-<form>
-  <dl>
-    <dt><label for="username">Benutzername:</label></dt>
-    <dd><input type="text" id="username" value="" /></dd>
-    
-    <dt><label for="password">Passwort:</label></dt>
-    <dd><input type="password" id="password" value="" /></dd>
-    
-    <dt>&nbsp;</dt>
-    <dd><input type="button" value="Hash erzeugen" onclick="generate_htpasswd();" /></dd>
-    
-    <dt id="htpasswd_label">&nbsp;</dt>
-    <dd id="htpasswd_content">&nbsp;</dd>
-  </dl>
-</form>
-  
-</notextile>
+* "https://dsor-development.upb.de/*trac*/dgs/":https://dsor-development.upb.de/trac/dgs/
+* "https://dsor-development.upb.de/*svn*/dgs/":https://dsor-development.upb.de/svn/dgs/
+* "htpasswd-Generator":/htpasswd.html

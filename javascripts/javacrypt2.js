@@ -138,11 +138,27 @@ function pwgen(pwl) {
 }
 
 function generate_htpasswd() {
-  var username = $('username').value;
-  var password = $('password').value;
+  var username = $F('username');
+  var password = $F('password');
   
   var crypted = htpasswd(username, password, ALG_CRYPT);
   
-  $('htpasswd_label').innerHTML = 'Ergebnis:';
-  $('htpasswd_content').innerHTML = crypted;
+  $('htpasswd_result').value = crypted;
+}
+
+function mail_htpasswd() {
+  var username = $F('username');
+  var crypted = $F('htpasswd_result');
+  
+  var subject = 'htpasswd-Eintrag für ' + username;
+  var body = 'Hallo, \n\
+\n\
+hier ist der htpasswd-Eintrag:\n\
+\n\
+  ' + crypted + '\n\
+\n\
+Viele Grüße\n
+\n';
+
+  window.location.href = 'mailto:?subject=' + encodeURI(subject) + '&body=' + encodeURI(body);
 }
