@@ -1,0 +1,33 @@
+---
+layout: default
+title: dev.tosie.de / Literatur
+---
+h1. Literatur-Datenbanken
+
+| !images/bibs/acm.png!:acm "ACM Portal":acm | !images/bibs/citeseerx.png!:citeseerx "CitesserX":citeseerx | !images/bibs/copac.png!:copac "Copac":copac |
+| !images/bibs/dblp.png!:dblp "DBLP":dblp | !images/bibs/ebsco.png!:ebsco "EBSCO":ebsco | !images/bibs/gbv.png!:gbv "GBV":gbv |
+| !images/bibs/google.png!:google-booksearch "Google Buchsuche":google-booksearch | !images/bibs/google.png!:google-scholar "Google Scholar":google-scholar | !images/bibs/ieee.png!:ieee "IEEE Xplore":ieee |
+| !images/bibs/jstor.png!:jstor "JSTOR":jstor | !images/bibs/sciencedirect.jpg!:sciencedirect "ScienceDirect":sciencedirect | !images/bibs/springerlink.png!:springerlink "Springerlink":springerlink |
+| !images/bibs/wikipedia.png!:wikipedia "Wikipedia (Englisch)":wikipedia-en | !images/bibs/wikipedia.png!:wikipedia "Wikipedia (Deutsch)":wikipedia-de | !images/bibs/wiley-interscience.png!:wiley-interscience "Wiley InterScience":wiley-interscience |
+
+h1. Literatur-Verwaltung
+
+* "Mendeley":http://www.mendeley.com/ (kostenlos, Synchronisation mehrerer Rechner, Mac, Linux, Windows)
+* "Citavi":http://www.ub.uni-paderborn.de/ebibliothek/citavi/ (kostenlos für UPB-Studenten, Windows-only)
+
+
+[acm]http://portal.acm.org/portal.cfm
+[citeseerx]http://citeseerx.ist.psu.edu/
+[copac]http://copac.ac.uk/
+[dblp]http://www.informatik.uni-trier.de/~ley/db/
+[ebsco]http://search.ebscohost.com/
+[gbv]http://gso.gbv.de/xslt/
+[google-booksearch]http://books.google.com/
+[google-scholar]http://scholar.google.com/
+[ieee]http://ieeexplore.ieee.org/Xplore/guesthome.jsp
+[jstor]http://www.jstor.org/
+[sciencedirect]http://www.sciencedirect.com/
+[springerlink]http://www.springerlink.com/
+[wikipedia-en]http://en.wikipedia.org/
+[wikipedia-de]http://de.wikipedia.org/
+[wiley-interscience]http://www3.interscience.wiley.com/

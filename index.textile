@@ -7,3 +7,4 @@ h3. DS&OR-Links
 * "https://dsor-development.upb.de/*trac*/dgs/":https://dsor-development.upb.de/trac/dgs/
 * "https://dsor-development.upb.de/*svn*/dgs/":https://dsor-development.upb.de/svn/dgs/
 * "htpasswd-Generator":/htpasswd.html
+* "Literatur":/literatur.html
