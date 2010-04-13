@@ -1,0 +1,29 @@
+---
+layout: default
+title: dev.tosie.de / Titleize
+---
+h1. Titleize
+
+<notextile>
+
+<script type="text/javascript" charset="utf-8" src="/javascripts/titleize.js"></script>
+  
+<form >
+  <dl>
+    <dt><label for="heading">Überschrift:</label></dt>
+    <dd>
+      <input type="text" id="heading" value="" />
+      <input type="button" value="Titleize" onclick="titleize();" />
+    </dd>
+    
+    <dt><label for="result">Ergebnis:</label></dt>
+    <dd>
+      <input type="text" id="result" />
+    </dd>
+    
+  </dl>
+</form>
+  
+</notextile>
+
+p=(small). Quelle/Inspiration: http://daringfireball.net/2008/05/title_case
